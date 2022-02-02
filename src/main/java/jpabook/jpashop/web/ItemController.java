@@ -9,6 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @Controller
 public class ItemController {
@@ -35,8 +36,8 @@ public class ItemController {
     //상품 수정폼
     @GetMapping(value = "/items/{itemId}/edit")
     public String updateItemForm(@PathVariable("itemId") Long itemId, Model model){
-        Item item = itemService.fineOne(itemId);
-        model.addAttribute("item", item);
+        Optional<Item> item = itemService.findById(itemId);
+        model.addAttribute("item", item.get());
         return "items/updateItemForm";
     }
     //상품 수정

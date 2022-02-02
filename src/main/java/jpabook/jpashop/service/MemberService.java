@@ -7,9 +7,9 @@ import jpabook.jpashop.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.persistence.Temporal;
 import javax.transaction.Transactional;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Transactional
@@ -46,8 +46,8 @@ public class MemberService {
         return memberRepository.findAll();
     }
 
-    public Member fineOne(Long memberId){
-        return memberRepository.fineOne(memberId);
+    public Optional<Member> findById(Long memberId){
+        return memberRepository.findById(memberId);
     }
 
 }

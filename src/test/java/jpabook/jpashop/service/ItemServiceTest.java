@@ -12,6 +12,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.transaction.Transactional;
 
+import java.util.Optional;
+
 import static org.junit.Assert.assertEquals;
 
 @RunWith(SpringRunner.class)
@@ -35,7 +37,7 @@ public class ItemServiceTest {
         Long id = item.getId();
 
         //Then
-        assertEquals(item, itemService.fineOne(id));
+        assertEquals(item, itemService.findById(id));
     }
 
     @Test
@@ -50,7 +52,9 @@ public class ItemServiceTest {
         itemService.saveItem(item);
         Long id = item.getId();
 
+        Optional<Item> itemOptional = itemRepository.findById(id);
+
         //Then
-        assertEquals(item.getName(), itemService.fineOne(id).getName());
+        assertEquals(item.getName(), itemOptional.get().getName());
     }
 }

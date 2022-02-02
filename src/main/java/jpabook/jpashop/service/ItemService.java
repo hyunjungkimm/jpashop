@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Transactional
@@ -23,7 +24,7 @@ public class ItemService {
         return itemRepository.findAll();
     }
 
-    public Item fineOne(Long itemId){
-        return itemRepository.fineOne(itemId);
+    public Optional<Item> findById(Long itemId){
+        return itemRepository.findById(itemId);
     }
 }
