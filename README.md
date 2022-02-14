@@ -4,3 +4,6 @@
 <p>3장. 영속성 https://fivesecond.tistory.com/7</p>
 <p>4장. 엔티티 매핑 | 5장. 연관관계 매핑 | 6장. 다양한 연관관계 매핑 | 7장. 고급 매핑 https://fivesecond.tistory.com/8</p>
 <p>8장. 프록시와 연관관계 관리 https://fivesecond.tistory.com/9</p>
+<p>9장. 값 타입 https://fivesecond.tistory.com/10</p>
+<p>10장. 객체지향 쿼리언어https://fivesecond.tistory.com/11</p>
+  
