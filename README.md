@@ -6,4 +6,6 @@
 <p>8장. 프록시와 연관관계 관리 https://fivesecond.tistory.com/9</p>
 <p>9장. 값 타입 https://fivesecond.tistory.com/10</p>
 <p>10장. 객체지향 쿼리언어https://fivesecond.tistory.com/11</p>
-  
+<p>11장. 웹 애플리케이션 제작 | 12장. 스프링 데이터 JPA https://fivesecond.tistory.com/12?category=1038404</p>  
+<p>13장. 웹 애플리케이션과 영속성 관리 https://fivesecond.tistory.com/13?category=1038404</p>
+
