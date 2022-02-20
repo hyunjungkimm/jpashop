@@ -8,5 +8,6 @@
 <p>10장. 객체지향 쿼리언어https://fivesecond.tistory.com/11</p>
 <p>11장. 웹 애플리케이션 제작 | 12장. 스프링 데이터 JPA https://fivesecond.tistory.com/12?category=1038404</p>  
 <p>13장. 웹 애플리케이션과 영속성 관리 https://fivesecond.tistory.com/13?category=1038404</p>
-<p>14장. https://fivesecond.tistory.com/m/14</p>
-<p>15장. https://fivesecond.tistory.com/m/15</p>
+<p>14장. 컬렉션과 부가기능 https://fivesecond.tistory.com/m/14</p>
+<p>15장. 15장. 고급주제와 성능 최적화 https://fivesecond.tistory.com/m/15</p>
+<p>16장. 트랜잭션과 락, 2차 캐시 https://fivesecond.tistory.com/17</p>
